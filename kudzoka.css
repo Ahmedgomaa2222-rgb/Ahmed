@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.sec1 {
+    width: 100%;
+    height: 800px;
+    display: block;
+    padding: 25px 30px;
+    background-image: url(blue_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.absolute img {
+    width: 1300px;
+    position: absolute;
+    top: 80%;
+    right: 18%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+nav .link {
+    display: flex;
+    align-items: center;
+}
+
+nav .son img {
+    width: 130px;
+}
+
+nav .son {
+    width: 100px;
+}
+
+nav .son2 {
+    margin-left: 30px;
+}
+
+nav .son2 a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 17px;
+    color: black;
+}
+
+.son2 .a {
+    border-bottom: 2px solid RGB(196 40 235);
+}
+
+nav .button {
+    position: relative;
+}
+
+.button img {
+    width: 85px;
+}
+
+.button p {
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    position: absolute;
+    bottom: 55px;
+    left: 25px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;/
+}
+
+.text .h1 {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    color: rgb(99, 114, 121);
+    font-weight: 600;
+    margin-top: 200px;
+    word-spacing: 2px;
+}
+
+.text .h1 .D {
+    color: #7a3d8a;
+    margin: 0 15px;
+}
+
+.text .p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(175, 175, 175);
+}
+
+.imgs {
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+    margin-left: 350px;
+
+}
+
+.imgs .main {
+    width: 320px;
+    object-fit: contain;
+    position: absolute;
+    right: 250px;
+
+}
+
+.imgs .background {
+    width: 700px;
+    position: absolute;
+    right: 5px;
+}
+
+.imgs .absolute {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 420px;
+    right: 220px;
+}
+@media only screen and (min-width:300px) and (max-width:576px) {
+    .sec1{
+        width: 250%;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .imgs{
+        width: 200px;
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+.sec2 {
+    margin-top: 50px;
+}
+
+.father {
+    display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   height: 800px;
+}
+
+.father .absolute {
+    position: absolute;
+    left: 300px;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.father .relative1 {
+    position: relative;
+    left: 200px;
+    top: 110px;
+    width: 200px;
+}
+
+.father .relative2 {
+    position: relative;
+    left: 250px;
+    top: 250px;
+    width: 200px;
+}
+
+.father .img3 {
+    width: 200px;
+    position: relative;
+    left: 95px;
+    top: 575px;
+}
+
+.Son1 h1 {
+    font-size: 20px;
+    color: #999;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.Son1 .sece {
+    font-size: 15px;
+    color: #b9b9b9;
+    margin-top: 15px;
+    margin-left: 170px;
+}
+.Son1 .sece1 {
+    font-size: 15px;
+    color: #b9b9b9;
+    margin-top: 8px;
+    margin-left: 150px;
+}
+.Son2{
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+.Son2 h1 {
+    font-size: 20px;
+    color: #999;
+    margin-top: 260px;
+    margin-left: 270px ;
+}
+
+.Son2 .sece {
+    font-size: 15px;
+    color: #b9b9b9;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 190px;
+}
+.Son2 .sece1 {
+    font-size: 15px;
+    color: #b9b9b9;
+    margin-top: 2px;
+    margin-left: 250px;
+}
+
+.Son3{
+    margin-left: 50px;
+   padding-right: 30px;
+}
+.Son3 h1 {
+    font-size: 20px;
+    color: #999;
+    margin-top: 590px;
+    text-align: center;
+}
+
+.Son3 .sece {
+    font-size: 15px;
+    color: #b9b9b9;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.Son3 .sece1 {
+    font-size: 15px;
+    color: #b9b9b9;
+    margin-top: 2px;
+    margin-left: 5px;
+    word-spacing: 5px;
+}
+.slogan {
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+}
+.slogan img{
+    width: 350px;
+}
+.slogan p{
+    font-size: 20px;
+  position: absolute;
+  bottom: 165px;
+  left: 85px;
+  color: white;
+  font-weight: bold;
+}
+.slogan h1{
+    font-size: 45px;
+    position: absolute;
+    bottom: 110px;
+    left: 85px;
+    color: white;
+    font-weight: lighter;
+}
+.sec3{
+    margin-top: 50px;
+    padding: 0 300px;
+    
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+.middle i{
+    margin-top: 250px;
+    font-size: 15px;
+    color: #a19f9f;
+    padding-left: 10px;
+}
+.middle .same{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 130px;
+    margin-left: 10px;
+}
+.middle .diffirent{
+    width: 400px;
+    height: 300px;
+   margin: 0 50px;
+}
+ .Text h3{
+      font-size: 22px;
+      text-align: center;
+      color: #999;
+}
+.Text .Para{
+    font-size: 18px;
+    text-align: center;
+    color: #b9b9b9;
+    margin-top: 30px;
+}
+.Text p {
+        margin-top: 7px;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+   justify-content: center;
+   position: relative;
+   overflow: hidden;
+  
+} 
+footer .bgimg{
+    position: absolute;
+    margin-top: -50px;
+    left: -3%;
+    width: 110%;
+    height: 155%;
+ 
+}
+footer .parent{
+     position: relative;
+     top: 360px;
+     right: 12%;
+}
+footer .App{
+    display: flex;
+    justify-content: space-between;
+}
+.App .apple{
+    display: flex;
+}
+.apple .big{
+    position: relative;
+    width: 145px;
+    height: 50px;
+    margin-right: 5px;
+    
+}
+.apple .texts{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    position: absolute;
+    left: 50px;
+    top: 8px;
+    color:#7a3d8a;
+}
+.apple p{
+    color: black;
+    font-size: 10px;
+    margin-left: 3px;
+}
+.apple .small{
+    position: absolute;
+    z-index: 1;
+    width: 28px;
+    right: 305px;
+    top: 6px;
+}
+.App .google{
+    display: flex;
+}
+.google .big{
+    position: relative;
+    width: 145px;
+    height: 50px;
+    margin-right: 40px;  
+}
+.google .texts{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 18px;
+    position: absolute;
+    left: 225px;
+    top: 7px;
+    color:#7a3d8a;
+}
+.google p{
+    color: black;
+    font-size: 10px;
+    margin-left: 3px;
+}
+.google .small{
+    position: absolute;
+   z-index: 1;
+    width: 28px;
+    right: 130px;
+    top:10px;
+}
+.parent .icon{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.icon img{
+    width: 15px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.list ul{
+    display: flex;
+    margin-top: 45px;
+    margin-left:20px ;
+}
+.list ul li{
+    margin-right: 20px;
+    color: white;
+}
+footer .images img{
+    width: 600px;
+    height: 520px;
+    object-fit: cover;
+    position: relative;
+    top: 45px;
+    left: 140px;
+}
